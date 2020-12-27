@@ -1,0 +1,83 @@
+.navbar-brand {
+    background-color: #20b2aa;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+header {
+    color: #20b2aa; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px lightgray;
+}
+
+.navbar-toggler {
+    border: solid 2px #6c757d;
+    margin-right: 15px;
+}
+
+.nav-item {
+    margin-left: 15px;
+    font-size: larger;
+}
+
+.container-xs {
+    max-width: 500px;
+}
+
+.img-thumbnail {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.img {
+    margin-bottom: 20px;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.btn {
+    width: 150px;
+    margin-left: 12px;
+    background-color: #20b2aa;
+    border: solid 1px #20b2aa;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    border-color: lightseagreen;
+    color: darkgrey;
+    text-align: center;
+    font-size: smaller;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #666666;
+    border-top: solid 5px #20b2aa;
+}
+
+
+@media screen and (max-width: 770px) {
+    .nav {
+
+    }
+}
