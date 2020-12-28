@@ -1,5 +1,10 @@
+body {
+    background-color: #e6e6e6;
+}
+
+/* Settings for the Adam Horn brand on the navbar */
 .navbar-brand {
-    background-color: #20b2aa;
+    background-color: #d46c0a;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-left: 15px;
@@ -7,12 +12,26 @@
     margin-bottom: 5px;
 }
 
-body {
-    background-color: #e6e6e6;
+/* Additional settings and placement for navbar toggler */
+.navbar-toggler {
+    border: solid 2px #6c757d;
+    margin-right: 15px;
 }
 
+/*  */
+.nav-item {
+    margin-left: 15px;
+    font-size: larger;
+}
+
+/* Setting for indicating current page in the navbar */
+.text-dark {
+    font-weight: bolder;
+}
+
+/* Header settings */
 header {
-    color: #20b2aa; 
+    color: #d46c0a; 
     font-family:'Times New Roman', Times, serif;
     font-size: 30pt;
     font-weight: bold;
@@ -21,44 +40,48 @@ header {
     border-bottom: solid 3px lightgray;
 }
 
-.navbar-toggler {
-    border: solid 2px #6c757d;
-    margin-right: 15px;
-}
-
-.nav-item {
-    margin-left: 15px;
-    font-size: larger;
-}
-
 .container-xs {
     max-width: 500px;
 }
 
+/* Settings for thumbnail in About Me section */
 .img-thumbnail {
-    width: 150px;
+    width: 50%;
+    max-width: 350px;
+    min-width: 150px;
     float: left;
     margin-right: 15px;
 }
 
+/* Settings for pictures on portfolio page */
 .img {
     margin-bottom: 20px;
     max-height: 350px;
     max-width: 350px;
+    min-width: 150px;
 }
 
+/* Used to pad the rows inside the container */
 .row {
     padding: 15px;
 }
 
+/* Settings for submission button on contact form */
 .btn {
-    width: 150px;
+    width: 100px;
     margin-left: 12px;
-    background-color: #20b2aa;
-    border: solid 1px #20b2aa;
+    background-color: #d46c0a;
+    border: solid 1px #d46c0a;
     color: white;
 }
 
+/* Settings for placement of social media icons */
+.social {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+/* General settings for footer */
 footer {
     position: fixed;
     left: 0;
@@ -72,12 +95,20 @@ footer {
     font-size: smaller;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #666666;
-    border-top: solid 5px #20b2aa;
+    border-top: solid 5px #d46c0a;
 }
 
 
-@media screen and (max-width: 770px) {
-    .nav {
+@media screen and (min-width: 992px) {
+    .container-xs {
+        max-width: 750px;
+    }
 
+    .img-thumbnail {
+        max-width: 250px;
+    }
+
+    .form-control {
+        max-width: 500px;
     }
 }
