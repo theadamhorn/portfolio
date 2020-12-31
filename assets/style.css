@@ -11,6 +11,10 @@ body {
     margin-bottom: 5px;
 }
 
+.navbar-brand:hover {
+    background-color:#f68f2f;
+}
+
 /* Additional settings and placement for navbar toggler */
 .navbar-toggler {
     border: solid 2px #6c757d;
@@ -71,6 +75,13 @@ header {
     margin-left: 12px;
     background-color: #d46c0a;
     border: solid 1px #d46c0a;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #f68f2f;
+    border: solid 1px #f68f2f;
     color: white;
 }
 
