@@ -2,6 +2,10 @@ body {
     background-color: #e6e6e6;
 }
 
+main {
+    font-size: 16pt;
+}
+
 /* Settings for the Adam Horn brand on the navbar */
 .navbar-brand {
     background-color: #d46c0a;
