@@ -5,9 +5,8 @@ body {
 /* Settings for the Adam Horn brand on the navbar */
 .navbar-brand {
     background-color: #d46c0a;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-left: 15px;
+    font-size: x-large;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -18,7 +17,7 @@ body {
     margin-right: 15px;
 }
 
-/*  */
+/* Additional settings specific to navbar items */
 .nav-item {
     margin-left: 15px;
     font-size: larger;
@@ -32,7 +31,6 @@ body {
 /* Header settings */
 header {
     color: #d46c0a; 
-    font-family:'Times New Roman', Times, serif;
     font-size: 30pt;
     font-weight: bold;
     padding-top: 10px;
@@ -41,7 +39,7 @@ header {
 }
 
 .container-xs {
-    max-width: 370px;
+    max-width: 450px;
     margin: auto;
 }
 
@@ -82,6 +80,17 @@ header {
     margin-bottom: 10px;
 }
 
+.portfolio-links {
+    color: #d46c0a;
+    text-decoration: none;
+}
+
+.portfolio-links:hover, 
+.portfolio-links:active {
+    color: #008b8b;
+}
+
+
 /* General settings for footer */
 footer {
     position: fixed;
@@ -90,7 +99,6 @@ footer {
     bottom: 0;
     padding-top: 10px;
     width: 100%;
-    border-color: lightseagreen;
     color: darkgrey;
     text-align: center;
     font-size: smaller;
@@ -99,22 +107,41 @@ footer {
     border-top: solid 5px #d46c0a;
 }
 
+@media screen and (max-width: 480px) {
+    .img {
+        max-width: 100%;
+    }
+}
+
 @media screen and (min-width: 750px) {
     .container-xs {
         max-width: 740px;
+    }
+
+    .img {
+        width: 250px;
+    }
+
+    .card-text,
+    .card-title {
+        margin-left: 20px;
     }
 }
 
 @media screen and (min-width: 1260px) {
     .container-xs {
         max-width: 1100px;
+        margin: auto;
     }
 
-    .img-thumbnail {
-        max-width: 350px;
+    .img-thumbnail,
+    .img {
+        width: 350px;
     }
 
     .form-control {
         max-width: 500px;
     }
+
+    
 }
