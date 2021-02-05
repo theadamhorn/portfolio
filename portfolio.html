@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--<link rel="stylesheet" href="assets/css/reset.css"-->
-    
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
     <!-- Bootstrap CSS and Bootstrap JS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
-    
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Portfolio</title>
 </head>
+
 <body>
-    
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light">
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg navbar-light">
         <!-- Navbar Brand -->
-        <a href="./index.html" class="navbar-brand text-white p-2">ADAM HORN</a>
-        
+        <a href="./index.html" class="nav-link nav-head display-6 mx-3 mb-2">ADAM HORN</a>
+
         <!-- Toggler/collapsible button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -36,62 +47,150 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="./portfolio.html">PORTFOLIO</a>
+                    <a class="nav-link text-white" href="./portfolio.html">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
             </ul>
+            <a href="https://www.linkedin.com/in/mradamhorn/" target="_blank"><i
+                    class="fab fa-linkedin fa-2x m-2"></i></a>
         </div>
     </nav>
-    <br><br>
+    <br><br><br><br>
     <main class="background">
 
         <!-- Main content container -->
-        <section class="container-xs bg-white">
+        <section class="container-xs bg-white mt-5">
             <div class="row m-1">
                 <header class="display-4">Portfolio</header>
             </div>
 
-            <!-- Portfolio pictures -->
+            <!-- Portfolio intro -->
             <div class="row m-1">
-                <p>Here is a collection of my recent development work. As I continue to do more coding and improve my work, I will display new projects here so please check back frequently. If you like my work or want to share feedback, please send me a note via the <strong><a href="./contact.html" class="portfolio-links">contact</a></strong> page.</p>
+                <p>Here is a collection of my recent development work. As I continue to do more coding and improve my
+                    work, I will display new projects here so please check back frequently. If you like my work or want
+                    to share feedback, please send me a note via the <strong><a href="./contact.html"
+                            class="portfolio-links">contact</a></strong> page.</p>
                 <p></p>
-                 
+
                 <!-- Card for Password Generator portfolio item-->
                 <div class="card mb-3">
                     <div class="row">
                         <div class="col-md-4 mt-3">
-                            <a href="https://mradamhorn.github.io/password-generator/" target="_blank">
-                                <img src="./assets/password-generator.png" alt="Password Generator webpage" class="img">
+                            <a href="https://mradamhorn.github.io/weather/index.html" target="_blank">
+                                <img src="./assets/images/weatherBee.png" alt="WeatherBee webpage" class="img">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body mx-2">
-                                <h4 class="card-title">Password Generator</h4>
-                                <p class="card-text">This project was part of my coding boot camp to develop a password generator using the JavaScript we were being taught. The instructions were to have us use prompts and confirms to verify certain parameters for the password. However, I was having trouble understanding the use of prompts and confirms for the assignment and found an instructional video that presented a different way to build the project.<br><br>
-                                <a href="https://mradamhorn.github.io/password-generator/" target="_blank" class="portfolio-links">Click here to view my GitHub depsitory for this project.</a><br>
-                                <a href="https://mradamhorn.github.io/password-generator/" target="_blank" class="portfolio-links">Click here to view the live website for this project.</a></p>
+                                <h4 class="card-title">WeatherBee</h4>
+                                <p class="card-text">Here is a simple weather app I developed as a coding student as I
+                                    was learning to use APIs. I used Bootstrap for much of the HTML and style code. It
+                                    pulls data from the "Current Weather Data" API and the "One Call API" available on
+                                    OpenWeather. The information produced is for current weather and a 5-day forecast
+                                    for locations entered into the text input field. Current Weather returns current
+                                    information on temperature, humidity, wind speed and UV index. The 5-day forecast
+                                    produces information on the forecasted day's temperature, the forecasted low
+                                    temperature, the forecasted maximum temperature, and the forecasted humidity for the
+                                    next five days.<br><br>
+                                    <a href="https://github.com/mradamhorn/weather" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/weather/index.html" target="_blank"
+                                        class="portfolio-links">Click here to view the live website for this
+                                        project.</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br><br>
-                
+
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="https://mradamhorn.github.io/code-quiz/index.html" target="_blank">
+                                <img src="./assets/images/quizSite.png" alt="Financial Quiz webpage" class="img">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body mx-2">
+                                <h4 class="card-title">Quiz Project</h4>
+                                <p class="card-text">Welcome to a fabulous, fantastical financial quiz! Here you will
+                                    find a set of questions that test on some financial terms and financial history.
+                                    Try, if you will, your best to guess at the right answer and find out your score at
+                                    the end! For each correct answer, 10 points you get. For each wrong, however, lose 5
+                                    points and 10 seconds from the time allowed. At the end, each second left will be a
+                                    point to your final score.<br><br>
+                                    <a href="https://github.com/mradamhorn/code-quiz" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/code-quiz/index.html" target="_blank"
+                                        class="portfolio-links">Click here to view the live website for this
+                                        project.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="https://mradamhorn.github.io/password-generator/" target="_blank">
+                                <img src="./assets/images/password-generator.png" alt="Password Generator webpage"
+                                    class="img">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body mx-2">
+                                <h4 class="card-title">Password Generator</h4>
+                                <p class="card-text">This project was part of my coding boot camp to develop a password
+                                    generator using the JavaScript we were being taught. The instructions were to have
+                                    us use prompts and confirms to verify certain parameters for the password. However,
+                                    I was having trouble understanding the use of prompts and confirms for the
+                                    assignment and found an instructional video that presented a different way to build
+                                    the project.<br><br>
+                                    <a href="https://github.com/mradamhorn/password-generator" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/password-generator/" target="_blank"
+                                        class="portfolio-links">Click here to view the live website for this
+                                        project.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
                 <!-- Card for Social Trailblazers website portfolio item-->
-                 <div class="card mb-3">
+                <div class="card mb-3">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://mradamhorn.github.io/social-trailblazers/index.html" target="_blank">
-                                <img src="./assets/social-trailblazers-screenshot.png" alt="Tabata Sanctuary Website" class="img">
+                                <img src="./assets/images/social-trailblazers-screenshot.png"
+                                    alt="Tabata Sanctuary Website" class="img">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body mx-2">
                                 <h4 class="card-title">Social Trailblazers Website</h4>
-                                <p class="card-text">This website began as an optional holiday assignment for a coding boot camp to gain practice working with Bootstrap, HTML, and CSS. The prompt was to create a fan site, the topic of which was our own choosing. Although I enjoy fictional entertainment, I thought I would take it more in the direction of a fan site for notable individuals and organizations actively involve with practicing change and impacting our societal norms.<br><br>
-                                <a href="https://github.com/mradamhorn/social-trailblazers" target="_blank" class="portfolio-links">Click here to view my GitHub depsitory for this project.</a><br>
-                                <a href="https://mradamhorn.github.io/social-trailblazers/index.html" target="_blank" class="portfolio-links">Click here to view the live website for this project.</a></p>
+                                <p class="card-text">This website began as an optional holiday assignment for a coding
+                                    boot camp to gain practice working with Bootstrap, HTML, and CSS. The prompt was to
+                                    create a fan site, the topic of which was our own choosing. Although I enjoy
+                                    fictional entertainment, I thought I would take it more in the direction of a fan
+                                    site for notable individuals and organizations actively involve with practicing
+                                    change and impacting our societal norms.<br><br>
+                                    <a href="https://github.com/mradamhorn/social-trailblazers" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/social-trailblazers/index.html"
+                                        target="_blank" class="portfolio-links">Click here to view the live website for
+                                        this project.</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -103,42 +202,59 @@
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://mradamhorn.github.io/tabata-sanctuary/index.html" target="_blank">
-                                <img src="./assets/sanctuary.png" alt="Tabata Sanctuary Website" class="img">
+                                <img src="./assets/images/sanctuary.png" alt="Tabata Sanctuary Website" class="img">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body mx-2">
                                 <h4 class="card-title">Santuario de Tabata Website</h4>
-                                <p class="card-text">This is a website I developed purely for practice apart from the boot camp activities. I wanted to engage the tools and skills I was developing in project of my own making. This site was built in phases. The initial phase was simply HTML but as I learned Bootstrap and CSS, I incorporated those languages and frameworks to make this site.<br><br>
-                                <a href="https://github.com/mradamhorn/tabata-sanctuary" target="_blank" class="portfolio-links">Click here to view my GitHub depsitory for this project.</a><br>
-                                <a href="https://mradamhorn.github.io/tabata-sanctuary/index.html" target="_blank" class="portfolio-links">Click here to view the live website for this project.</a></p>
+                                <p class="card-text">This is a website I developed purely for practice apart from the
+                                    boot camp activities. I wanted to engage the tools and skills I was developing in
+                                    project of my own making. This site was built in phases. The initial phase was
+                                    simply HTML but as I learned Bootstrap and CSS, I incorporated those languages and
+                                    frameworks to make this site.<br><br>
+                                    <a href="https://github.com/mradamhorn/tabata-sanctuary" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/tabata-sanctuary/index.html" target="_blank"
+                                        class="portfolio-links">Click here to view the live website for this
+                                        project.</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br><br>
-                
+
                 <!-- Card for Horiseon webpage portfolio item -->
                 <div class="card mb-3">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://mradamhorn.github.io/horiseon/" target="_blank">
-                                <img src="./assets/horiseon.png" alt="Horiseon Webpage" class="img">
+                                <img src="./assets/images/horiseon.png" alt="Horiseon Webpage" class="img">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body mx-2">
                                 <h4 class="card-title">Horiseon Webpage</h4>
-                                <p class="card-text">This webpage was one of my first homework project for my coding boot camp. The instructions were to correct some backend errors and to clean up the code by using comments, ensuring all links worked as intended, and consolidating various CSS elements.<br><br>
-                                <a href="https://github.com/mradamhorn/horiseon" target="_blank" class="portfolio-links">Click here to view my GitHub depsitory for this project.</a><br>
-                                <a href="https://mradamhorn.github.io/horiseon/" target="_blank" class="portfolio-links">Click here to view the live website for this project.</a></p>
+                                <p class="card-text">This webpage was one of my first homework project for my coding
+                                    boot camp. The instructions were to correct some backend errors and to clean up the
+                                    code by using comments, ensuring all links worked as intended, and consolidating
+                                    various CSS elements.<br><br>
+                                    <a href="https://github.com/mradamhorn/horiseon" target="_blank"
+                                        class="portfolio-links">Click here to view my GitHub depsitory for this
+                                        project.</a><br>
+                                    <a href="https://mradamhorn.github.io/horiseon/" target="_blank"
+                                        class="portfolio-links">Click here to view the live website for this
+                                        project.</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br><br>
-                    
-               
+
+
             </div>
 
         </section>

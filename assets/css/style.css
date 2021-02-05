@@ -5,18 +5,17 @@ body {
 main {
     font-size: 14pt;
 }
-
-/* Settings for the Adam Horn brand on the navbar */
-.navbar-brand {
+.navbar {
     background-color: #d46c0a;
-    font-size: x-large;
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
-.navbar-brand:hover {
-    background-color:#f68f2f;
+.nav-head {
+    width: 60%;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color:#fd9e44;
 }
 
 /* Additional settings and placement for navbar toggler */
@@ -31,9 +30,9 @@ main {
     font-size: larger;
 }
 
-/* Setting for indicating current page in the navbar */
-.text-dark {
-    font-weight: bolder;
+.fa-linkedin {
+    color: #fd9e44;
+    padding-left: 5px;
 }
 
 /* Header settings */
@@ -108,11 +107,11 @@ header {
 
 /* General settings for footer */
 footer {
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     padding-top: 10px;
+    padding-bottom: 5px;
     width: 100%;
     color: darkgrey;
     text-align: center;

@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--<link rel="stylesheet" href="assets/css/reset.css"-->
-    
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
     <!-- Bootstrap CSS and Bootstrap JS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
-    
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Contact</title>
 </head>
+
 <body>
-    
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light">
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg navbar-light">
         <!-- Navbar Brand -->
-        <a href="./index.html" class="navbar-brand text-white p-2">ADAM HORN</a>
-        
+        <a href="./index.html" class="nav-link nav-head display-6 mx-3 mb-2">ADAM HORN</a>
+
         <!-- Toggler/collapsible button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -32,7 +43,7 @@
         <div class="collapse navbar-collapse justify-content-end mx-3" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="./contact.html">CONTACT</a>
+                    <a class="nav-link text-white" href="./contact.html">CONTACT</a>
                 </li>
 
                 <li class="nav-item">
@@ -41,14 +52,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
+
             </ul>
+            <a href="https://www.linkedin.com/in/mradamhorn/" target="_blank"><i
+                    class="fab fa-linkedin fa-2x m-2"></i></a>
         </div>
     </nav>
-    <br><br>
+    <br><br><br><br>
     <main class="background">
 
         <!-- Main content container -->
-        <section class="container-xs bg-white m-auto">
+        <section class="container-xs bg-white m-auto mt-5">
             <div class="row m-1">
                 <header class="display-4">Contact</header>
             </div>
@@ -57,7 +71,8 @@
 
                 <!-- Name input for contact -->
                 <div class="mb-3">
-                    <p>My site and work in constantly evolving. As such, I would love to read your feedback and comments. Please feel free to send me a note!</p><br>
+                    <p>My site and work in constantly evolving. As such, I would love to read your feedback and
+                        comments. Please feel free to send me a note!</p><br>
                     <label for="exampleFormControlInput1" class="form-label">Name</label>
                     <input type="name" class="form-control" id="nameInput" placeholder="Name">
                 </div>
