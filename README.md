@@ -6,7 +6,7 @@ This is a website built on Bootstrap to help improve my skills with responsive d
 
 ## Screenshot of Home Page
 
-![Responsive Portfolio Screenshot](assets/home-page.png)
+![Responsive Portfolio Screenshot](assets/images/home-page.png)
 
 ## Link to Live Site
 
