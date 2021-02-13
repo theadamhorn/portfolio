@@ -71,6 +71,7 @@
                 <header class="display-4">Let Me Know What's Up</header>
             </div>
 
+
             <div class="row m-1">
 
                 <!-- Name input for contact -->
@@ -93,9 +94,34 @@
                     <textarea class="form-control" id="messageInput" rows="3"></textarea>
                 </div>
 
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn" data-toggle="modal" data-target="#submitModal">Submit</button>
+
             </div>
 
+            <!-- Modal notice that contact form is not working -->
+            <div class="modal" id="submitModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sorry, bud...</h4>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Unfortunately, I'm still working on getting the contact form to submit correctly. In the
+                            mean time, feel free to email me at <strong>mr.amhorn@gmail.com</strong>.
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <br><br><br>
