@@ -6,7 +6,7 @@ This is a website built on Bootstrap to help improve my skills with responsive d
 
 ## Link to Live Site
 
-[Responsive Portfolio Site](https://mradamhorn.github.io/portfolio/index.html)
+[Responsive Portfolio Site](https://theadamhorn.github.io/portfolio/index.html)
 
 ## Screenshot of Home Page
 
