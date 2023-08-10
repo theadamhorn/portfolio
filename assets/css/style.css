@@ -1,21 +1,35 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #252525;
+    color: #a9a9a9;
 }
 
 main {
     font-size: 14pt;
 }
+
 .navbar {
-    background-color: #d46c0a;
+    background: linear-gradient(#002d0b, #005814);
+    margin: 0% 10% 0% 10%;
+    padding-left: 10%;
+    padding-right: 15%;
+    border-radius: 0px 0px 50% 50%;
+}
+
+.nav-highlight {
+    color: #02c830;
+}
+
+.nav-text {
+    color: #a9a9a9;
 }
 
 .nav-head {
     width: 60%;
-    color: #ffffff;
+    color: #029323;
 }
 
 .nav-link:hover {
-    color:#fd9e44;
+    color:#ffffff;
 }
 
 /* Additional settings and placement for navbar toggler */
@@ -30,20 +44,44 @@ main {
     font-size: larger;
 }
 
+a {
+    color: #029323;
+    text-decoration: none;
+}
+
 .fa-linkedin,
 .fa-github {
-    color: #fd9e44;
+    color: #029323;
     padding-left: 5px;
 }
 
-/* Header settings */
-header {
-    color: #d46c0a; 
-    font-size: 30pt;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 3px lightgray;
+.home-subtitle {
+    font-size: 25px;
+}
+
+.main-corners, .cards {
+    border-radius: 40% 5% / 10% 20%;
+}
+
+.corners {
+    border-radius: 15% 5% / 2% 15%;
+}
+
+.cards {
+    background: radial-gradient(#1a1a1a,#353434);
+
+}
+
+.main-background {
+    background: radial-gradient(#2a2a2a,#1b1b1b);
+}
+
+.att-icon {
+    font-size: xx-large;
+}
+
+.att-icon:hover {
+    color: #029323;
 }
 
 .container-xs {
@@ -77,15 +115,15 @@ header {
 .btn {
     width: 100px;
     margin-left: 12px;
-    background-color: #d46c0a;
-    border: solid 1px #d46c0a;
+    background-color: #005814;
+    border: solid 1px #005814;
     color: white;
     
 }
 
 .btn:hover {
-    background-color: #f68f2f;
-    border: solid 1px #f68f2f;
+    background-color: #029323;
+    border: solid 1px #029323;
     color: white;
 }
 
@@ -96,30 +134,28 @@ header {
 }
 
 .portfolio-links {
-    color: #d46c0a;
+    color: #006418;
     text-decoration: none;
 }
 
 .portfolio-links:hover, 
 .portfolio-links:active {
-    color: #008b8b;
+    color: #029323;
 }
 
 
 /* General settings for footer */
 footer {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding-top: 10px;
+    border-radius: 75% 75% 0px 0px;
+    margin: 0% 10% 0% 10%;
+    padding-top: 15px;
     padding-bottom: 5px;
-    width: 100%;
-    color: darkgrey;
+    color: #029323;
     text-align: center;
     font-size: smaller;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #666666;
-    border-top: solid 5px #d46c0a;
+    background: linear-gradient(#005814, #002d0b);
+    /* border-top: solid 2px #d46c0a; */
 }
 
 @media screen and (max-width: 480px) {

@@ -9,18 +9,19 @@
 
     <!-- Bootstrap CSS and Bootstrap JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/0e5eaa6d9c.js" crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -30,9 +31,9 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg">
         <!-- Navbar Brand -->
-        <a href="./index.html" class="nav-link nav-head display-6 mx-3 mb-2">ADAM HORN</a>
+        <!-- <a href="./index.html" class="nav-link nav-head display-6 mx-3 mb-2">ADAM HORN</a> -->
 
         <!-- Toggler/collapsible button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,20 +41,20 @@
         </button>
 
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse justify-content-end mx-3" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse justify-content-end navbar-margin" id="collapsibleNavbar">
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About</a>
+                    <a class="nav-link nav-text" href="./index.html">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./portfolio.html">PORTFOLIO</a>
+                    <a class="nav-link nav-highlight" href="./portfolio.html">portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./causes.html">Causes</a>
+                    <a class="nav-link nav-text" href="./causes.html">causes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link nav-text" href="./contact.html">contact</a>
                 </li>
 
             </ul>
@@ -67,9 +68,9 @@
     <main class="background">
 
         <!-- Main content container -->
-        <section class="container-xs bg-white mt-5">
+        <section class="container-xs corners main-background px-3">
             <div class="row m-1">
-                <header class="display-4">My Coded Crafts</header>
+                <header class="display-4 mt-3">Crafts</header>
             </div>
 
             <!-- Portfolio intro -->
@@ -80,77 +81,12 @@
                             class="portfolio-links">contact</a></strong> page.</p>
                 <br>
 
-                <!-- Card for Plantsy portfolio item
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4 mt-3">
-                            <a href="https://limitless-cove-25591.herokuapp.com/" target="_blank">
-                                <img src="./assets/images/plantsy.png" alt="plantsy webpage" class="img">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body mx-2">
-                                <h4 class="card-title">Plantsy</h4>
-                                <p class="card-text">This was my second group project as part of my coding boot camp.
-                                    This site is somewhat of a social network based around plants. Built with Handlbars,
-                                    Dotenv, Express, MySQL, Sequelize, Session, and bCrypt, this site provides users the
-                                    ability to build and manage their own plants (hosted in their own "Potting Garden")
-                                    and find necessary care instructions. I am honored to
-                                    have worked on this project with <a href='https://github.com/Aereisdin'
-                                        target='_blank' class='portfolio-links'>Kiel
-                                        Sprague</a>, <a href='https://github.com/Sesdesoir' target='_blank'
-                                        class='portfolio-links'>Leslie Williams</a>, and <a
-                                        href='https://github.com/skyler-blakeslee' target='_blank'
-                                        class='portfolio-links'>Skyler
-                                        Blakeslee</a>.<br><br>
-                                    <a href="https://github.com/theadamhorn/plantsy" target="_blank"
-                                        class="portfolio-links">Click here to view my GitHub depsitory for this
-                                        project.</a><br>
-                                    <a href="https://limitless-cove-25591.herokuapp.com/" target="_blank"
-                                        class="portfolio-links">Click here to view the live website for this
-                                        project.</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br><br> -->
-
-                <!-- Card for theMOTHERBOARD tech blog portfolio item-->
-                <!-- <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4 mt-3">
-                            <a href="https://sheltered-dusk-38064.herokuapp.com/" target="_blank">
-                                <img src="./assets/images/motherboard-blog.png" alt="theMOTHERBOARD blog webpage"
-                                    class="img">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body mx-2">
-                                <h4 class="card-title">theMOTHERBOARD</h4>
-                                <p class="card-text">This is a coding boot camp project that required me to create a
-                                    blog site in which a user can sign-up to create a post and leave comments. This
-                                    project was built with Handlbars, Dotenv, Express, MySQL, Sequelize, Session, and
-                                    bCrypt, and deployed on Heroku. <br><br>
-                                    <a href="https://github.com/theadamhorn/the-motherboard" target="_blank"
-                                        class="portfolio-links">Click here to view my GitHub depsitory for this
-                                        project.</a><br>
-                                    <a href="https://sheltered-dusk-38064.herokuapp.com/" target="_blank"
-                                        class="portfolio-links">Click here to view the live website for this
-                                        project.</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br><br> -->
-
                 <!-- Card for popflix portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/popflix/" target="_blank">
-                                <img src="./assets/images/popflix.png" alt="popflix webpage" class="img">
+                                <img src="./assets/images/popflix.png" alt="popflix webpage" class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -182,11 +118,11 @@
                 <br><br>
 
                 <!-- Card for weather application portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/weather/" target="_blank">
-                                <img src="./assets/images/weatherBee.png" alt="WeatherBee webpage" class="img">
+                                <img src="./assets/images/weatherBee.png" alt="WeatherBee webpage" class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -215,11 +151,11 @@
                 <br><br>
 
                 <!-- Card for quiz portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/code-quiz/" target="_blank">
-                                <img src="./assets/images/quizSite.png" alt="Financial Quiz webpage" class="img">
+                                <img src="./assets/images/quizSite.png" alt="Financial Quiz webpage" class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -245,12 +181,12 @@
                 <br><br>
 
                 <!-- Card for password generator portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/password-generator/" target="_blank">
                                 <img src="./assets/images/password-generator.png" alt="Password Generator webpage"
-                                    class="img">
+                                    class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -276,12 +212,12 @@
                 <br><br>
 
                 <!-- Card for Social Trailblazers website portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/social-trailblazers/" target="_blank">
                                 <img src="./assets/images/social-trailblazers-screenshot.png"
-                                    alt="Tabata Sanctuary Website" class="img">
+                                    alt="Tabata Sanctuary Website" class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -307,11 +243,11 @@
                 <br><br>
 
                 <!-- Card for Tabata Sanctuary website portfolio item-->
-                <div class="card mb-3">
+                <div class="card mb-3 cards">
                     <div class="row">
                         <div class="col-md-4 mt-3">
                             <a href="https://theadamhorn.github.io/tabata-sanctuary/" target="_blank">
-                                <img src="./assets/images/sanctuary.png" alt="Tabata Sanctuary Website" class="img">
+                                <img src="./assets/images/sanctuary.png" alt="Tabata Sanctuary Website" class="img cards">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -335,40 +271,12 @@
                 </div>
                 <br><br>
 
-                <!-- Card for Horiseon webpage portfolio item -->
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4 mt-3">
-                            <a href="https://theadamhorn.github.io/horiseon/" target="_blank">
-                                <img src="./assets/images/horiseon.png" alt="Horiseon Webpage" class="img">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body mx-2">
-                                <h4 class="card-title">Horiseon Webpage</h4>
-                                <p class="card-text">This webpage was one of my first homework project for my coding
-                                    boot camp. The instructions were to correct some backend errors and to clean up the
-                                    code by using comments, ensuring all links worked as intended, and consolidating
-                                    various CSS elements.<br><br>
-                                    <a href="https://github.com/theadamhorn/horiseon" target="_blank"
-                                        class="portfolio-links">Click here to view my GitHub depsitory for this
-                                        project.</a><br>
-                                    <a href="https://theadamhorn.github.io/horiseon/" target="_blank"
-                                        class="portfolio-links">Click here to view the live website for this
-                                        project.</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-
 
             </div>
 
         </section>
     </main>
-    <br><br><br>
+    <br>
     <footer>
         <p>&copy; Adam Horn</p>
     </footer>
