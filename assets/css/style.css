@@ -1,6 +1,6 @@
 body {
-    background-color: #252525;
-    color: #a9a9a9;
+    background-color: #dcdcdc;
+    color: #002d0b;
 }
 
 main {
@@ -8,7 +8,7 @@ main {
 }
 
 .navbar {
-    background: linear-gradient(#002d0b, #005814);
+    background: linear-gradient(270deg,#4b7555 0%, #659771 45%, #b2dabb 100%);
     margin: 0% 10% 0% 10%;
     padding-left: 10%;
     padding-right: 15%;
@@ -16,7 +16,7 @@ main {
 }
 
 .nav-highlight {
-    color: #02c830;
+    color: #ffffff;
 }
 
 .nav-text {
@@ -25,11 +25,13 @@ main {
 
 .nav-head {
     width: 60%;
-    color: #029323;
+    color: #002d0b;
 }
 
-.nav-link:hover {
-    color:#ffffff;
+.nav-link:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    color:#b2dabb;
 }
 
 /* Additional settings and placement for navbar toggler */
@@ -49,9 +51,13 @@ a {
     text-decoration: none;
 }
 
+a:hover, .name:hover {
+    color: #bb6400;
+}
+
 .fa-linkedin,
 .fa-github {
-    color: #029323;
+    color: #a9a9a9;
     padding-left: 5px;
 }
 
@@ -59,7 +65,7 @@ a {
     font-size: 25px;
 }
 
-.main-corners, .cards {
+.main-corners {
     border-radius: 40% 5% / 10% 20%;
 }
 
@@ -68,12 +74,28 @@ a {
 }
 
 .cards {
-    background: radial-gradient(#1a1a1a,#353434);
-
+    /* background: radial-gradient(#1a1a1a,#353434);  */
+    border-radius: 5%;
 }
 
+/* .name:hover {
+    color: #436b4c;
+} */
+
+.portrait{
+    width: 300px;
+    border-radius: 40% 10% / 15% 20%;
+    background: #c1cec5;
+    margin-top: -80%;
+    padding-top: 250px;
+}
+/* 
+.portrait:hover {
+    background: #90ac97;
+} */
+
 .main-background {
-    background: radial-gradient(#2a2a2a,#1b1b1b);
+    background: radial-gradient(#a9a9a9,#e7e7e7);
 }
 
 .att-icon {
@@ -150,11 +172,11 @@ footer {
     margin: 0% 10% 0% 10%;
     padding-top: 15px;
     padding-bottom: 5px;
-    color: #029323;
+    color: #d9d9d9;
     text-align: center;
     font-size: smaller;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(#005814, #002d0b);
+    background: linear-gradient(90deg,#4b7555 0%, #659771 45%, #b2dabb 100%);
     /* border-top: solid 2px #d46c0a; */
 }
 
