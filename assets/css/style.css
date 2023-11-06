@@ -51,7 +51,7 @@ a {
     text-decoration: none;
 }
 
-a:hover, .name:hover {
+a:hover {
     color: #bb6400;
 }
 
@@ -176,7 +176,7 @@ footer {
     text-align: center;
     font-size: smaller;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(90deg,#4b7555 0%, #659771 45%, #b2dabb 100%);
+    background: linear-gradient(90deg,#4b7555 0%, #659771 25%, #b2dabb 100%);
     /* border-top: solid 2px #d46c0a; */
 }
 
