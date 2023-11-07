@@ -45,16 +45,16 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link nav-text" href="#about">about</a>
+                    <a class="nav-link nav-text" onclick="showContent('about')" >about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-text" href="#portfolio">portfolio</a>
+                    <a class="nav-link nav-text" onclick="showContent('portfolio')" >portfolio</a>
                 </li>
                 <!-- <li class="nav-item">
-                    <a class="nav-link nav-text" href="./favorites.html">favorites</a>
+                    <a class="nav-link nav-text" onclick="showContent()" href="./favorites.html">favorites</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link nav-text" href="#contact">contact</a>
+                    <a class="nav-link nav-text" onclick="showContent('contact')" >contact</a>
                 </li>
 
             </ul>
@@ -68,7 +68,7 @@
     <main class="background">
 
         <!-- About content div -->
-        <div id="about">
+        <div id="aboutDiv">
                 <section class="container-xs">
                 <div class="row m-2">
                     <div class="col-8">
@@ -136,7 +136,7 @@
         </div>
         
         <!-- Portfolio content div -->
-        <div id="portfolio">
+        <div id="portfolioDiv">
             <!-- <br> -->
             <section class="container-xs corner px-3">
                 <div class="row m-1">
@@ -336,7 +336,7 @@
         </div>
 
         <!-- Contact content div -->
-        <div id="contact">
+        <div class="pb-4" id="contactDiv">
             <section class="container-xs m-auto p-4">
                 <div class="row m-1">
                     <header class="display-4 mt-3">Let's Connect</header>
@@ -346,15 +346,51 @@
                     <p>I appreciate any feedback or connection and am working on a form-based submission. In the meantime, if you like my work or have questions about newer projects I may not yet or cannot post here, please connect with me via <a href="mailto:happyslothdev@gmail.com">email</a>! I look forward to connecting.</p><br>
                 </div>
             </section>
+            
         </div>
         
     </main>
     <br>
-    <footer>
+    <footer id="footer">
         <p>&copy; Adam Horn</p>
     </footer>
 
+<script>
+    document.getElementById("aboutDiv").style.display = "block";
+    document.getElementById("portfolioDiv").style.display = "none";
+    document.getElementById("contactDiv").style.display = "none";
 
+    function showContent(n) {
+        
+        if(n == "about"){
+            document.getElementById("aboutDiv").style.display = "block";
+            document.getElementById("portfolioDiv").style.display = "none";
+            document.getElementById("contactDiv").style.display = "none";
+            document.getElementById("footer").style.position = "static";
+            document.getElementById("footer").style.bottom = "0";
+            document.getElementById("footer").style.width = "80%";
+        }
+
+        if(n == "portfolio"){
+            document.getElementById("aboutDiv").style.display = "none";
+            document.getElementById("portfolioDiv").style.display = "block";
+            document.getElementById("contactDiv").style.display = "none";
+            document.getElementById("footer").style.position = "static";
+            document.getElementById("footer").style.bottom = "0";
+            document.getElementById("footer").style.width = "80%";
+        }
+
+        if(n == "contact"){
+            document.getElementById("aboutDiv").style.display = "none";
+            document.getElementById("portfolioDiv").style.display = "none";
+            document.getElementById("contactDiv").style.display = "block";
+            document.getElementById("footer").style.position = "fixed";
+            document.getElementById("footer").style.bottom = "0";
+            document.getElementById("footer").style.width = "80%";
+        }
+
+    }
+</script>
 </body>
 
 </html>
