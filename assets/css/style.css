@@ -32,6 +32,7 @@ main {
 .fa-linkedin:hover,
 .fa-github:hover {
     color:#b2dabb;
+    cursor: pointer;
 }
 
 /* Additional settings and placement for navbar toggler */
