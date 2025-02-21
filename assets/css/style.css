@@ -105,7 +105,16 @@ a:hover {
 }
 
 .att-icon:hover {
-    color: #029323;
+    color: #659771;
+}
+
+
+.proj-tech-icon {
+    font-size: x-large;
+}
+
+.proj-tech-icon:hover {
+    color: #659771;
 }
 
 .container-xs {
